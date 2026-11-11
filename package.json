@@ -1,12 +1,16 @@
 {
   "name": "mime-type",
   "description": "the custom more powerful mime-type utility can work with mime-db.",
-  "version": "3.1.0",
+  "version": "3.1.0-lineaje-01",
   "contributors": [
     "Riceball LEE https://github.com/snowyu",
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jeremiah Senkpiel <fishrock123@rocketmail.com> (https://searchbeam.jit.su)",
-    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
+    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
   ],
   "license": "MIT",
   "keywords": [
@@ -14,7 +18,10 @@
     "mime-db",
     "types"
   ],
-  "repository": "snowyu/mime-type.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/snowyu-mime-type.js"
+  },
   "dependencies": {
     "minimatch": "^3.0.4",
     "path.js": "^1.0.7",
