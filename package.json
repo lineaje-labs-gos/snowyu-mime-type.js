@@ -56,5 +56,11 @@
     "test": "mocha --reporter spec test/test.js",
     "test-cov": "npm run pretest; istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/test.js",
     "test-travis": "npm run pretest; istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot test/test.js"
+  },
+  "overrides": {
+    "brace-expansion": ">=1.1.21"
+  },
+  "resolutions": {
+    "brace-expansion": ">=1.1.21"
   }
 }
